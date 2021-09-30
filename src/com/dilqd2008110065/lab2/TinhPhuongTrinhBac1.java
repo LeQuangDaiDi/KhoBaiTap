@@ -1,4 +1,4 @@
-package com.lequangdaidi2008110065;
+package com.lequangdaidi2008110065.lab2;
 import java.util.Scanner;
 public class TinhPhuongTrinhBac1 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.lequangdaidi2008110065;
+package com.lequangdaidi2008110065.lab2;
 import java.util.Scanner;
 public class Menu {
     public static void main(String[] args) {

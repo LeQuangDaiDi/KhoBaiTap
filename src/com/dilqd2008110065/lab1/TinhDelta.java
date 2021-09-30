@@ -1,4 +1,4 @@
-package com.lequangdaidi2008110065;
+package com.lequangdaidi2008110065.lab1;
 
 import java.util.Scanner;
 public class TinhDelta {

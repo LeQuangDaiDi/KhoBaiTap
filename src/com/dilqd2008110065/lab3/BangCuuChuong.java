@@ -1,4 +1,4 @@
-package com.lequangdaidi2008110065;
+package com.lequangdaidi2008110065.lab3;
 import java.util.Scanner;
 public class BangCuuChuong {
     public static void main(String[] args) {
