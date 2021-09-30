@@ -1,4 +1,4 @@
-package BaiTap;
+package com.lequangdaidi2008110065;
 import java.util.Scanner;
 public class MangHoTenVaDiem {
     public static void NhapHoTenVaDiem(int soluonghocsinh , String hoten[] , float diemso[]){
