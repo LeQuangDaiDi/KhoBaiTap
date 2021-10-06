@@ -1,4 +1,4 @@
-package com.lequangdaidi2008110065.lab1;
+package com.dilqd2008110065.lab1;
 import java.util.Scanner;
 public class HinhChuNhat {
     public static void main(String[] args) {
