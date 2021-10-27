@@ -1,7 +1,13 @@
-public class PrehistoricHabitat {
-    public static void main(String[] args) {
-        Alamosaurus alamosaurus = new Alamosaurus();
-        alamosaurus.makeNoise();
-        alamosaurus.eat();
-        alamosaurus.sleep();
-        alamosaurus.roam(
+public class Alamosaurus extends HoAnCo{
+    protected void makeNoise(){
+        System.out.println("Kêu Tiếng Khủng Long  Alamosaurus ");
+    }
+ 
+    protected void roam(){
+        System.out.println("Đi Theo Bầy");
+    }
+    protected void Special(){
+        System.out.println("Có Chiếc Cổ Dài");
+        System.out.println("Thân Hình To Nhất Trong Các Loài");
+    }
+}

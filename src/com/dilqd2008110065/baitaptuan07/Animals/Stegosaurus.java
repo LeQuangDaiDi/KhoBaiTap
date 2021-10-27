@@ -1,8 +1,13 @@
-public class Carnivores extends PrehistoricAnimals{
+public class Stegosaurus extends HoAnCo{
     protected void makeNoise(){
-        System.out.println("........Gầm.........");
+        System.out.println("Kêu Tiếng Khủng Long  Alamosaurus ");
     }
     protected void eat(){
-        System.out.println("Thịt loài khác");
+        System.out.println(" Thực Vật");
     }
-    protec
+
+
+    protected void Special(){
+        System.out.println("Có Vảy Hình Kiếm Trên Lưng");
+    }
+}
