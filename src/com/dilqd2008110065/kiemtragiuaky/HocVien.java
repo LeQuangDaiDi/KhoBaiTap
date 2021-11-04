@@ -1,4 +1,4 @@
-package kiemtragiuaky;
+package com.dilqd2008110065.kiemtragiuaky;
 
 public class HocVien extends Nguoi {
     private Float diemMonhoc1;
