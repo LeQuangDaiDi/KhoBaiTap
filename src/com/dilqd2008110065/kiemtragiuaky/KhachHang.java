@@ -1,4 +1,4 @@
-package com.dilqd2008110065.kiemtragiuaky;
+package kiemtragiuaky;
 
 public class KhachHang extends Nguoi {
     private String tenCongTy;

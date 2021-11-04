@@ -1,9 +1,9 @@
-package com.dilqd2008110065.kiemtragiuaky;
+package kiemtragiuaky;
 
 public class HocVien extends Nguoi {
     private Float diemMonhoc1;
     private Float diemMonhoc2;
-    private static int soLuongHV;
+    private static int soLuongHV = 1;
     public Float getDiemMonhoc1() {
         
         
@@ -21,13 +21,15 @@ public class HocVien extends Nguoi {
         this.diemMonhoc2 = diemMonhoc2;
     }
    
+    public static int getSoLuongHV() {
+        return soLuongHV++;
+    }
     
 
-    public HocVien(String hoTen, String diaChi, Float diemMonhoc1, Float diemMonhoc2,int soLuongHV) {
+    public HocVien(String hoTen, String diaChi, Float diemMonhoc1, Float diemMonhoc2) {
         super(hoTen, diaChi);
         this.diemMonhoc1 = diemMonhoc1;
         this.diemMonhoc2 = diemMonhoc2;
-        this.soLuongHV = soLuongHV;   
     }
     protected float diemTB() {
         
@@ -35,6 +37,6 @@ public class HocVien extends Nguoi {
     }
     @Override
     public String toString() {
-        return super.toString() + " Điểm môn học 1 :" +getDiemMonhoc1() + " Điểm môn học 2 : " +getDiemMonhoc2() + "Điểm Trung Bình Môn " + diemTB();
+        return super.toString() + " Điểm môn học 1 :" +getDiemMonhoc1() + " Điểm môn học 2 : " +getDiemMonhoc2() + " Điểm Trung Bình Môn " + diemTB() + " Số Lượng Học Viên : " +getSoLuongHV();
     }
 }
